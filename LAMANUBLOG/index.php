@@ -1,33 +1,6 @@
-<!doctype html>
-<html lang="fr">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-    <title>Hello, world!</title>
-
-    <style>
-        html,
-        body {
-            height: 100%;
-        }
-
-        footer {
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-            height: 60px;
-            line-height: 60px;
-            background-color: #e3f2fd;
-        }
-    </style>
-</head>
-
+<?php
+include_once 'partials/_header.php';
+?>
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: #e3f2fd; box-shadow: 0 .5rem 1rem rgba(0,0,0,.05), inset 0 -1px 0 rgba(0,0,0,.1); justify-content: center;">
         <div class="container-fluid">
@@ -51,20 +24,6 @@
             </div>
         </div>
     </nav>
-
-
-
-
-
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <p class="col-sm-12 text-center lead">
-                    Projet blog PHP
-                </p>
-            </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</body>
-
-</html>
+<?php
+include_once 'partials/_footer.php';
+?>
